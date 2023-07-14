@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301538A02A5FA692009A4CA0 /* HomeListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3015389F2A5FA692009A4CA0 /* HomeListData.swift */; };
 		305C2F352A56A52D00861B10 /* bmob_chatgpt_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C2F342A56A52D00861B10 /* bmob_chatgpt_demoApp.swift */; };
 		305C2F372A56A52D00861B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C2F362A56A52D00861B10 /* ContentView.swift */; };
 		305C2F392A56A52F00861B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305C2F382A56A52F00861B10 /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		305C2F472A56A52F00861B10 /* bmob_chatgpt_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C2F462A56A52F00861B10 /* bmob_chatgpt_demoTests.swift */; };
 		305C2F512A56A52F00861B10 /* bmob_chatgpt_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C2F502A56A52F00861B10 /* bmob_chatgpt_demoUITests.swift */; };
 		305C2F532A56A52F00861B10 /* bmob_chatgpt_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C2F522A56A52F00861B10 /* bmob_chatgpt_demoUITestsLaunchTests.swift */; };
+		305C2F602A56A61F00861B10 /* socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C2F5F2A56A61F00861B10 /* socket.swift */; };
+		3093698A2A5C0C2A00D966E4 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 309369892A5C0C2A00D966E4 /* podfile */; };
+		3093698D2A5CFC2D00D966E4 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 3093698C2A5CFC2D00D966E4 /* Starscream */; };
+		30C239772A5EAF24002D176E /* BmobChatAi in Frameworks */ = {isa = PBXBuildFile; productRef = 30C239762A5EAF24002D176E /* BmobChatAi */; };
+		30C3F7402A5E3E9000DA7C69 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3F73F2A5E3E9000DA7C69 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3015389F2A5FA692009A4CA0 /* HomeListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListData.swift; sourceTree = "<group>"; };
 		305C2F312A56A52D00861B10 /* bmob-chatgpt-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bmob-chatgpt-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		305C2F342A56A52D00861B10 /* bmob_chatgpt_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmob_chatgpt_demoApp.swift; sourceTree = "<group>"; };
 		305C2F362A56A52D00861B10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,9 @@
 		305C2F4C2A56A52F00861B10 /* bmob-chatgpt-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bmob-chatgpt-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		305C2F502A56A52F00861B10 /* bmob_chatgpt_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmob_chatgpt_demoUITests.swift; sourceTree = "<group>"; };
 		305C2F522A56A52F00861B10 /* bmob_chatgpt_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmob_chatgpt_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		305C2F5F2A56A61F00861B10 /* socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socket.swift; sourceTree = "<group>"; };
+		309369892A5C0C2A00D966E4 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		30C3F73F2A5E3E9000DA7C69 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C239772A5EAF24002D176E /* BmobChatAi in Frameworks */,
+				3093698D2A5CFC2D00D966E4 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +87,7 @@
 		305C2F282A56A52D00861B10 = {
 			isa = PBXGroup;
 			children = (
+				309369892A5C0C2A00D966E4 /* podfile */,
 				305C2F332A56A52D00861B10 /* bmob-chatgpt-demo */,
 				305C2F452A56A52F00861B10 /* bmob-chatgpt-demoTests */,
 				305C2F4F2A56A52F00861B10 /* bmob-chatgpt-demoUITests */,
@@ -97,9 +110,12 @@
 			children = (
 				305C2F342A56A52D00861B10 /* bmob_chatgpt_demoApp.swift */,
 				305C2F362A56A52D00861B10 /* ContentView.swift */,
+				30C3F73F2A5E3E9000DA7C69 /* ChatView.swift */,
 				305C2F382A56A52F00861B10 /* Assets.xcassets */,
 				305C2F3A2A56A52F00861B10 /* bmob_chatgpt_demo.entitlements */,
 				305C2F3B2A56A52F00861B10 /* Preview Content */,
+				305C2F5F2A56A61F00861B10 /* socket.swift */,
+				3015389F2A5FA692009A4CA0 /* HomeListData.swift */,
 			);
 			path = "bmob-chatgpt-demo";
 			sourceTree = "<group>";
@@ -145,6 +161,10 @@
 			dependencies = (
 			);
 			name = "bmob-chatgpt-demo";
+			packageProductDependencies = (
+				3093698C2A5CFC2D00D966E4 /* Starscream */,
+				30C239762A5EAF24002D176E /* BmobChatAi */,
+			);
 			productName = "bmob-chatgpt-demo";
 			productReference = 305C2F312A56A52D00861B10 /* bmob-chatgpt-demo.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +237,10 @@
 				Base,
 			);
 			mainGroup = 305C2F282A56A52D00861B10;
+			packageReferences = (
+				3093698B2A5CFC2D00D966E4 /* XCRemoteSwiftPackageReference "Starscream" */,
+				30C239752A5EAF24002D176E /* XCRemoteSwiftPackageReference "bmobChatAi" */,
+			);
 			productRefGroup = 305C2F322A56A52D00861B10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3093698A2A5C0C2A00D966E4 /* podfile in Resources */,
 				305C2F3D2A56A52F00861B10 /* Preview Assets.xcassets in Resources */,
 				305C2F392A56A52F00861B10 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C3F7402A5E3E9000DA7C69 /* ChatView.swift in Sources */,
 				305C2F372A56A52D00861B10 /* ContentView.swift in Sources */,
 				305C2F352A56A52D00861B10 /* bmob_chatgpt_demoApp.swift in Sources */,
+				305C2F602A56A61F00861B10 /* socket.swift in Sources */,
+				301538A02A5FA692009A4CA0 /* HomeListData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +378,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -401,8 +431,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -415,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bmob-chatgpt-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = RB8X4D9S9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -427,7 +460,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -451,6 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bmob-chatgpt-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = RB8X4D9S9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -463,7 +497,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -604,6 +638,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3093698B2A5CFC2D00D966E4 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		30C239752A5EAF24002D176E /* XCRemoteSwiftPackageReference "bmobChatAi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bmob/bmobChatAi";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3093698C2A5CFC2D00D966E4 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3093698B2A5CFC2D00D966E4 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		30C239762A5EAF24002D176E /* BmobChatAi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30C239752A5EAF24002D176E /* XCRemoteSwiftPackageReference "bmobChatAi" */;
+			productName = BmobChatAi;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 305C2F292A56A52D00861B10 /* Project object */;
 }

@@ -1,0 +1,7 @@
+platform :ios, '15.0'
+use_frameworks!
+
+
+target 'Starscream' do
+  pod 'Starscream', '~> 4.0.0'
+end

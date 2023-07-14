@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "bmobchatai",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bmob/bmobChatAi",
+      "state" : {
+        "revision" : "b26b323caaa8d9af397863a53c57689dafeec3ab",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream",
+      "state" : {
+        "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+        "version" : "4.0.4"
+      }
+    }
+  ],
+  "version" : 2
+}

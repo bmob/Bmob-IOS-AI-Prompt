@@ -12,6 +12,7 @@ struct bmob_chatgpt_demoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            ChatView()
         }
     }
 }
