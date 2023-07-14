@@ -12,12 +12,14 @@
 
 ## 使用
 
+
+
 本源码,基于SwiftUI，SDK 基于BmobChatAi库，无需服务器即可实现，地址：https://github.com/bmob/BmobChatAi， 下载代码xcode 打开即可使用。
 
 
 
-![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.47.07](./readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.47.07.png)
+![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.47.07](readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.47.07.png)
 
-![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.49.35](./readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.49.35.png)
+![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.49.35](readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.49.35.png)
 
-![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.50.36](./readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.50.36.png)
+![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.50.36](readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.50.36.png)
