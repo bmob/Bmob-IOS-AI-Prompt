@@ -18,8 +18,8 @@
 
 
 
-![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.47.07](readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.47.07.png)
+![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.47.07](readme-img/1.png)
 
-![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.49.35](readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.49.35.png)
+![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.49.35](readme-img/2.png)
 
-![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.50.36](readme-img/Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.50.36.png)
+![Simulator Screenshot - iPhone 14 Plus - 2023-07-14 at 14.50.36](readme-img/3.png)
